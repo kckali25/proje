@@ -1,0 +1,163 @@
+
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .projects {
+    margin-bottom: 30px;
+  }
+  
+  .projects h2, .skills h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .projects ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .projects li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .projects img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  
+
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  ul li h2 span{
+    color: red;
+    
+  }
+
+  .certificate {
+    margin-bottom: 30px;
+  }
+  
+  .certificate h2, .skills h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .certificate ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .certificate li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .certificate img {
+    max-width: 60%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+  }
+
+  
+/* Contacct */
+.contact {
+  margin-bottom: 30px;
+}
+
+.contact h2, .skills h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.contact ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.contact li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact img {
+  max-width: 60%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 130px;
+}
+/* Contacct */
+
+   ul li a{
+
+    text-decoration: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    text-decoration: none;
+    color:  white;
+    margin-left: 1700px;
+    position: relative;
+    position: absolute;
+    left: -1rem; */
+      
+  } 
+
+   .contact ul p{
+   
+    margin-right: 75px;
+
+  }
